@@ -7,7 +7,7 @@
 %
 % outputs: The reconstructed spectrum W in 5nm intervals 
 % 
-% written by Forrest Webler forrest@lystechnologies.io
+% written by Forrest Webler fwebler@gmail.com
 % based in part on https://doi.org/10.3390/s22062377
 
 function W = SpecRA_8(L,M,input)
