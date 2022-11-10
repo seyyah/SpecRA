@@ -1,0 +1,2 @@
+# SpecRA
+RGB to Spectrum
