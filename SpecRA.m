@@ -1,5 +1,5 @@
-% specRA is an adaptive reconstruction algorithm that applies 
-% the lassoglm  reference library of spectral distributions 
+% specRA is a spectral reconstruction algorithm that applies 
+% the Lasso Regularization of Generalized Linear Models or lassoglm   
 %
 % inputs: A reference high-dimensional library L
 %         A "measured" library M = g(L) where g is a model of the sensor (can be relearned)
