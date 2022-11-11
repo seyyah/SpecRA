@@ -7,6 +7,8 @@ The code utilizes a reference library of spectra and uses an unpublished digital
 
 In other words we solve y = Mx where y is our tristiumus input and x is a 1-dimensional coefficient vector. This approach makes the assumption that the coefficients x would also solve the problem w = Lx where w is the true spectrum and Lx is the linear combination of full-dimensional spectral observations in our library.
 
+citation: https://doi.org/10.3390/s22062377
+
 While we provide the user with this specific library, other libraries can be used but note that this will require the derivation of a new measured copy M. This could be done in various ways but the most direct approach could be to use a simple neural network to learn a relationship between spectral measurements and the LYS RGB values by taking a series of measurements side-by-side. While this is an arduious proceedure it could help improve results if sufficient training data are used.
 
 While not computed here, additional information can be extracted from the spectral data. If saved in .csv format the file can be uploaded to the free-to-use CIE validated webtool luox available here: https://luox.app/
