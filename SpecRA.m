@@ -12,7 +12,7 @@
 % written by Forrest Webler fwebler@gmail.com
 % based in part on https://doi.org/10.3390/s22062377
 
-function W = SpecRA_8(L,M,V,RGB,lx)
+function W = SpecRA(L,M,V,RGB,lx)
 
     wls = 380:5:780'; % fixed wavelengths from L
 
