@@ -36,7 +36,7 @@ function W = SpecRA(L,M,V,RGB,lx)
     % recover absolute irradiance units (W/m2) 
     Km = 683; % lm/W
     c = lx/(Km*sum(V.*W(:,2)));
-    W(:,2)=c.*W(:,2);
+    W(:,2)=(0.2*c).*W(:,2);
 
     % set all negative values to 0 (this performed better than constraing the solution to positive values)
     W(W<0,1)=0; 
