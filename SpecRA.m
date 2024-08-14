@@ -17,7 +17,7 @@ function W = SpecRA(L,M,V,RGB,lx)
     wls = 380:5:780'; % fixed wavelengths from L
 
     % power normalize the input 
-    p=RGB/sum(input); 
+    p=RGB/sum(RGB); 
 
     % power normalize the reference libraries
     for i=1:size(M,2)
